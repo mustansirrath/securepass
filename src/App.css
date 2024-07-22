@@ -9,7 +9,7 @@ body {
 }
 
 .maindiv {
-  width: 40%;
+  width: auto;
   height: auto;
   padding: 20px;
   border-radius: 10px;
@@ -49,7 +49,7 @@ body {
   padding: 10px;
   border: none;
   border-radius: 7px;
-  margin: 5px;
+  margin: 15px 5px;
   font-family: "Inter", sans-serif;
   background-color: black;
   color: white;
@@ -164,5 +164,50 @@ input[type="range"]::-webkit-slider-thumb {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     font-family: "Inter", sans-serif;
+}
+}
+
+@media only screen and (max-width: 1044px) {
+  .passwordInput {
+    width: 22rem;
+}
+
+.generateBtn {
+  width: 22rem;
+}
+
+input[type="range"] {
+  height: 25px;
+  width: 14rem;
+}
+}
+
+@media only screen and (max-width: 400px) {
+  .passwordInput {
+    width: 17rem;
+}
+
+.generateBtn {
+  width: 17rem;
+}
+
+input[type="range"] {
+  height: 25px;
+  width: 11rem;
+}
+}
+
+@media only screen and (max-width: 320px) {
+  .passwordInput {
+    width: 14rem;
+}
+
+.generateBtn {
+  width: 14rem;
+}
+
+input[type="range"] {
+  height: 25px;
+  width: 8rem;
 }
 }
